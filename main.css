@@ -1,0 +1,13 @@
+#btn-translate {
+    display: block;
+    padding: 5px 10px;
+    margin: 1rem;
+}
+
+#output {
+    display: block;
+    height: 5rem;
+    width: 20rem;
+    border: 3px solid;
+    border-radius: 0.5rem;
+}
