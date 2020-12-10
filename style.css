@@ -1,0 +1,29 @@
+#btn-translate {
+    display: block;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#output {
+    display: block;
+    height: 20vh;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#inputText {
+    display: block;
+    height: 20vh;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
