@@ -1,8 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+
+header {
+    background-color: #eec231;
+    display: block;
+    height: min-content;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.cover {
+    text-align: center;
+    margin: auto;
+}
+
+.coverImg {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+    display: block;
+}
+
 #btn-translate {
     display: block;
-    padding: 5px 10px;
+    padding: 10px 20px;
     margin: auto;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:#F1C536;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
 
 }
 
@@ -14,7 +66,10 @@
     border-radius: 0.5rem;
     text-align: center;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
 }
 
 #inputText {
@@ -25,5 +80,26 @@
     border-radius: 0.5rem;
     text-align: center;
     margin: auto;
+    padding: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #eec231;
     padding: 10px;
+    margin-top: 1rem;
+}
+
+.footer-inline {
+    text-decoration: none;
+    display: inline;
+    padding: 0px 5px;
+    font-size: 20px;
+
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
 }
